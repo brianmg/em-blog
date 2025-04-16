@@ -1,7 +1,7 @@
 ---
 title: "Introducing Em: Bringing Humanity to AI"
 description: "Meet Em — a privacy-first AI assistant designed to reflect, understand, and empower you. Here's why we're building her."
-pubDate: 2025-04-1T19:15:00Z
+pubDate: 2025-04-16T19:15:00Z
 heroImage: /jonathan-kemper-UF3vfhV04SA-unsplash.jpg
 ---
 

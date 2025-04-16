@@ -1,0 +1,37 @@
+---
+import { getCollection, getEntry } from "astro:content";
+import type { CollectionEntry, ContentCollectionKey } from "astro:content";
+import BlogPost from "../../layouts/BlogPost.astro";
+
+type BlogEntry = CollectionEntry<"blog">;
+
+export async function getStaticPaths() {
+	console.log("🔥 getStaticPaths called");
+	const posts = await getCollection("blog");
+	console.log("🧵 Full blog post entries:\n", JSON.stringify(posts, null, 2));
+	return posts.map((post) => ({
+		params: { slug: post.slug },
+		props: post,
+	}));
+}
+
+const { slug } = Astro.params;
+
+const post = await getEntry("blog", slug);
+
+if (!post) {
+	throw new Error(`Post not found for slug: ${slug}`);
+}
+
+const { Content } = await post.render();
+const { data } = post;
+---
+
+<BlogPost
+	title={data.title}
+	description={data.description}
+	pubDate={data.pubDate}
+	heroImage={data.heroImage}
+>
+	<Content />
+</BlogPost>

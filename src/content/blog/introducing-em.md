@@ -12,7 +12,11 @@ The plan is to introduce you to **Em**. Em is something I'm designing to breathe
 
 ### Why Em?
 
-Looking at the AI space in general we see things moving at a rapid pace, like no other time in history in terms of scale of what has been accomplished. My fear is that the price of this progress is user privacy, and my goal is to help take that back.
+I’ve lived through the dot-com boom, the rise of mobile, and the shift to cloud — and each one reshaped how we live and work in tangible ways. E-commerce opened doors for entrepreneurs no longer tied to brick-and-mortar. Smartphones gave us flexible, on-demand computing in our pockets. Cloud infrastructure let businesses scale faster than ever, adapting to real needs instead of planning for worst-case scenarios.
+
+AI has the potential to eclipse all of them — not because it’s faster or flashier, but because it can think alongside us. It can provide knowledge, streamline our tasks, organize our lives, and most importantly, give us something we’ve been losing for decades: time to focus on what actually matters.
+
+We can’t let AI become just another enterprise walled garden. It should work for everyone — and it’s on us to build it that way.
 
 - **Privacy by Design**: No backdoors. No passive listening. Your data belongs to you.
 - **Emotional Context**: Em doesn't just process commands — she learns your tone, your patterns, and your emotional context over time.
